@@ -15,16 +15,16 @@ It uses the Google AI API under the hood to interpret your intents and perform f
 ---
 
 ## Contents / Project Structure
-.
-├── calculator/ # (if present) helper arithmetic logic
-├── functions/ # modules containing file/folder operations
-├── call_function.py # code to call external functions based on intent
-├── config.py # configuration (e.g. API keys, paths)
-├── main.py # entrypoint / orchestration
-├── prompts.py # prompt templates, system / user prompt logic
-├── system_prompt # base system prompt instructions (text)
-├── tests.py # simple tests
-└── requirements.txt # Python dependencies
+. </br>
+├── calculator/ # (if present) helper arithmetic logic </br>
+├── functions/ # modules containing file/folder operations </br>
+├── call_function.py # code to call external functions based on intent </br>
+├── config.py # configuration (e.g. API keys, paths) </br>
+├── main.py # entrypoint / orchestration </br>
+├── prompts.py # prompt templates, system / user prompt logic </br>
+├── system_prompt # base system prompt instructions (text) </br>
+├── tests.py # simple tests </br>
+└── requirements.txt # Python dependencies </br>
 
 
 ---
@@ -65,4 +65,5 @@ Run the assistant via:
 python main.py
 
 It will prompt you (or accept commands) in natural language.
+
 
