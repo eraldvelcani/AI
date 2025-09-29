@@ -59,11 +59,12 @@ The file system_prompt holds core instructions for the assistant. You can tailor
 
 ---
 
-##Usage
+## Usage
 
 Run the assistant via:
 python main.py
 
 It will prompt you (or accept commands) in natural language.
+
 
 
